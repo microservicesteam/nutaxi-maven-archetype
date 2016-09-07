@@ -1,0 +1,1 @@
+# nutaxi-maven-archetype
