@@ -1,0 +1,16 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>quickstart</id>
+  <sources>
+    <source>src/main/java/Application.java</source>
+  </sources>
+  <resources>
+    <resource>mvn/wrapper/maven-wrapper.jar</resource>
+    <resource>mvn/wrapper/maven-wrapper.properties</resource>
+    <resource>.gitignore</resource>
+    <resource>.travis.yml</resource>
+    <resource>mvnw</resource>
+    <resource>mvnw.cmd</resource>
+    <resource>README.md</resource>
+  </resources>
+</archetype>
